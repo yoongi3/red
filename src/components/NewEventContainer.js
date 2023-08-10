@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components"
-import DateSelection from "./DateSelection.js";
-import TimeSelection from "./TimeSelection.js";
-import NameSelection from "./NameSelection.js";
+import DateSelection from "./DateSelection/DateSelection.js";
+import TimeSelection from "./TimeSelection/TimeSelection.js";
+import NameSelection from "./NameSelection/NameSelection.js";
 
 const MainContainer = styled.div`
     background-color : grey;

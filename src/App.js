@@ -7,7 +7,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<HomePage/>}/>
-        <Route path="event" element={<EventPage/>}/>
+        <Route path="/event" element={<EventPage/>}/>
       </Routes>
     </Router>
   );
