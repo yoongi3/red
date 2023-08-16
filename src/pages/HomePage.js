@@ -17,8 +17,7 @@ function HomePage() {
                 <NewEventContainer/>
                 <NavBar/>
             </Container>
-        </>
-            
+        </> 
     )
 }
 

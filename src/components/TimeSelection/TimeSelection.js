@@ -18,8 +18,9 @@ function TimeSelection() {
         <MainContainer>
             Choose Time
             <Container>
-                <input type="text"/>
-                <input type="text"/>
+                {/* Scrap input type="time" */}
+                <input type="time"/>
+                <input type="time"/>
             </Container>
         </MainContainer>
     )

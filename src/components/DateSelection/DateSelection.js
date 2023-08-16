@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components"
-
 const Container = styled.div`
 background-color : pink;
 text-align : center;
@@ -12,8 +11,8 @@ function DateSelection() {
         <Container>
             Select Date Range
             <p>
-                <input type="text"/>
-                <input type="text"/>
+                <input type="date"/>
+                <input type="date"/>
             </p>
         </Container>
     )
