@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import InputBox from "../Generic/InputBox.js";
 
 const Container = styled.div`
 background-color : purple;
@@ -12,9 +13,7 @@ function NameSelection() {
     return (
         <Container>
             Event Name
-            <p>
-                <input type="text"/>
-            </p>
+            <InputBox/>
         </Container>
     )
 }
