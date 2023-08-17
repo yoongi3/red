@@ -3,7 +3,7 @@ import styled from "styled-components"
 import DateSelection from "./DateSelection/DateSelection.js";
 import TimeSelection from "./TimeSelection/TimeSelection.js";
 import NameSelection from "./NameSelection/NameSelection.js";
-import Button from "./Generic/ReusableButton.js";
+import Button from "./Generic/ReusableButton/ReusableButton.js";
 
 const MainContainer = styled.div`
     background-color : grey;
