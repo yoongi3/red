@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components"
+import TimeDropdown from "../Generic/TimeDropdown.js";
 
 const MainContainer = styled.div`
 background-color : green;
@@ -18,9 +19,8 @@ function TimeSelection() {
         <MainContainer>
             Choose Time
             <Container>
-                {/* Scrap input type="time" */}
-                <input type="time"/>
-                <input type="time"/>
+                <TimeDropdown label ={"start time"}/>
+                <TimeDropdown/>
             </Container>
         </MainContainer>
     )
