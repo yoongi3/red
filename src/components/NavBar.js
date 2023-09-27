@@ -2,9 +2,9 @@ import React from "react";
 import styled from "styled-components"
 
 const Container = styled.div`
-    background-color : red;
+    background-color : #3D5A80;
     height : 100%;
-    width : 100px;
+    width : 200px;
     position : fixed;
     right : 0;
 `

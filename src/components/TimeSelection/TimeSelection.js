@@ -1,16 +1,19 @@
 import React, { useEffect } from "react";
 import styled from "styled-components"
-import Dropdown from "../Generic/TimeDropdown.js";
+import Dropdown from "../Generic/Dropdown.js";
 
 const MainContainer = styled.div`
-background-color : green;
+background-color : #3D5A80;
+color: #FFFFFF;
 text-align : center;
 width : 250px;
 margin : 20px;
+padding : 10px;
+border-radius : 5px;
 `
 const Container = styled.div`
     display : flex;
-    align-items : flex-start;
+    justify-content : space-evenly;
 `
 
 
@@ -65,8 +68,10 @@ function TimeSelection() {
         <MainContainer>
             Choose Time
             <Container>
-                <Dropdown options={timeDropdown} value={value} handleValueSelect={handleChange}/>
-                <Dropdown options={timeDropdown} value={value2} handleValueSelect={handleChange2}/>
+                <Dropdown options={timeDropdown} value={value} handleValueSelect={handleChange} 
+                    style={{backgroundColor:'#E0FBFC', color:'#3D5A80'}}/>
+                <Dropdown options={timeDropdown} value={value2} handleValueSelect={handleChange2}
+                    style={{backgroundColor:'#EE6C4D', color:'#FFFFFF'}}/>
             </Container>
         </MainContainer>
     )

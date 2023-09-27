@@ -7,6 +7,7 @@ import NewEventContainer from "../components/NewEventContainer.js"
 const Container = styled.div`
 display : flex;
 justify-content : center;
+background-color : #98C1D9;
 `
 
 function HomePage() {

@@ -6,13 +6,23 @@ import NameSelection from "./NameSelection/NameSelection.js";
 import Button from "./Generic/ReusableButton/ReusableButton.js";
 
 const MainContainer = styled.div`
-    background-color : grey;
+    padding-top : 50px;
     align-self : none;
     text-align : center;
+    font-size : 32px;
+    color : #27374D;
 `
-const Container = styled.div`
+const TopContainer = styled.div`
     display: flex;
     justify-content : center;
+    font-size : 16px;
+`
+const BottomContainer = styled.div`
+    padding : 10px;
+    margin : 20px;
+    background-color : #3D5A80;
+    font-size : 16px;
+    border-radius : 10px;
 `
 
 function NewEventContainer() {
@@ -26,17 +36,17 @@ function NewEventContainer() {
     return (
         <MainContainer>
             New Event
-            <Container>
+            <TopContainer>
                 <NameSelection/>
                 <TimeSelection/>
-            </Container>
-            <DateSelection/>
-            <Button onClick={handleClick1} style={{backgroundColor: 'blue', color: 'white'}}>
-                Button 1
-            </Button>
-            <Button onClick={handleClick2} style={{backgroundColor: 'yellow', color: 'black'}}>
-                Button 2
-            </Button>
+            </TopContainer>
+            <BottomContainer>
+                <DateSelection/>
+                <Button onClick={handleClick1} style={{backgroundColor: '#EE6C4D', color: '#FFFFFF'}}>
+                    create
+                </Button>
+            </BottomContainer>
+            
         </MainContainer>
     )
 }

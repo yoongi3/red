@@ -2,14 +2,16 @@ import React from "react";
 import styled from "styled-components"
 
 const Container = styled.div`
-    background-color : blue;
-    height : 50px;
+    box-shadow : 0px 10px;
+    background-color : #FFFFFF;
+    color : #3D5A80;
+    font-size : 64px;
     text-align : center;
 `
 
 function Header(){
     return (
-        <Container>Title</Container>
+        <Container>WEBPAGE NAME</Container>
     )
 };
 
