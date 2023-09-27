@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import InputBox from "../Generic/InputBox/InputBox.js";
+import InputBox from "../../Generic/InputBox/InputBox.js";
 
 const Container = styled.div`
 background-color : #3D5A80;

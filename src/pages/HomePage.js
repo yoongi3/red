@@ -2,7 +2,7 @@ import React from "react"
 import Header from "../components/Header.js"
 import NavBar from "../components/NavBar.js"
 import styled from "styled-components"
-import NewEventContainer from "../components/NewEventContainer.js"
+import NewEventContainer from "../components/EventContainer/NewEventContainer.js"
 
 const Container = styled.div`
 display : flex;
